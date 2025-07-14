@@ -113,7 +113,7 @@ a {
 }
 a:hover {
     color: #1f6feb;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /* Seções alternadas */
