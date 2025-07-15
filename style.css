@@ -209,7 +209,7 @@ td:hover, th:hover {
 #toggle-theme:hover {
     background: #58a6ff;
     color: #161b22;
-
+}
 
 /* Light mode */
 body.light-mode {
@@ -236,8 +236,6 @@ body.light-mode .perfil-foto img {
 }
 
 
-
-/* ... (rest of your light mode CSS and other sections) ... */
 body.light-mode .perfil-cargo {
     background: #1f6feb;
     color: #fff;
@@ -351,6 +349,3 @@ footer {
     background-color: #0d1117;
     border-top: 1px solid #1f6feb;
 }
-
-
-
