@@ -209,7 +209,7 @@ td:hover, th:hover {
 #toggle-theme:hover {
     background: #58a6ff;
     color: #161b22;
-}
+
 
 /* Light mode */
 body.light-mode {
@@ -225,20 +225,19 @@ body.light-mode .perfil-header h1 {
     color: #222;
 }
 body.light-mode .perfil-foto img {
-    width: 180px;
-    height: 180px;
+    width: 180px; 
+    height: 180px; 
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid #58a6ff;
-    box-shadow: 0 4px 24px #1f6feb88;
+    border: 4px solid #1f6feb; /* Merged from your existing overrides */
+    box-shadow: 0 4px 24px #1f6feb33; /* Merged from your existing overrides */
     margin-bottom: 1.5rem;
-    background: #dce3f9;
+    background: #eef2ff; /* Merged from your existing overrides */
 }
-body.light-mode .perfil-foto img {
-    border: 4px solid #1f6feb;
-    background: #eef2ff;
-    box-shadow: 0 4px 24px #1f6feb33;
-}
+
+
+
+/* ... (rest of your light mode CSS and other sections) ... */
 body.light-mode .perfil-cargo {
     background: #1f6feb;
     color: #fff;
@@ -320,8 +319,8 @@ body.light-mode footer {
         padding: 2rem 0.5rem 1rem 0.5rem;
     }
     .perfil-foto img {
-        width: 100px;
-        height: 100px;
+        width: 140px;
+        height: 140px;
     }
     h2 {
         font-size: 1.4rem;
@@ -336,6 +335,10 @@ body.light-mode footer {
     }
     table, th, td {
         font-size: 0.95rem;
+    }
+    body.light-mode .perfil-foto img {
+        width: 140px;
+        height: 140px;
     }
 }
 
